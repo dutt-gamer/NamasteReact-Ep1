@@ -23,15 +23,15 @@ class About extends React.Component {
           </UserContext.Consumer>
         </div>
         <h2>This is Namaste React Web Series</h2>
-        {/* <User
+        <User
           name={"Akshay Saini (function)"}
           location={"Dehradun (function)"}
-        /> */}
+        />
 
-        <UserClass
+        {/* <UserClass
           name={"Child 1 (class)"}
           location={"Dehradun (class)"}
-        />
+        /> */}
       </div>
     );
   }
