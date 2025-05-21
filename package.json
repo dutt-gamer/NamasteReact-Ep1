@@ -1,0 +1,44 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Akshay Saini",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dutt-gamer/NamasteReact-Ep1.git"
+  },
+  "author": "Akshay Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dutt-gamer/NamasteReact-Ep1/issues"
+  },
+  "homepage": "https://github.com/dutt-gamer/NamasteReact-Ep1#readme",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "autoprefixer": "^10.4.21",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.14.4",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@reduxjs/toolkit": "^2.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
